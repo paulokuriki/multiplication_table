@@ -30,6 +30,7 @@ motivational_phrases = [
     "### 🏅 Outstanding! You’re on fire! 🏅"
 ]
 
+
 # Function to generate a new question
 def new_question(range_min, range_max):
     table = random.randint(range_min, range_max)
@@ -37,6 +38,7 @@ def new_question(range_min, range_max):
     question = f"{table} x {num}"
     answer = table * num
     return question, answer
+
 
 # Title and introduction
 st.title("Bianca's Multiplication Party 😸")
